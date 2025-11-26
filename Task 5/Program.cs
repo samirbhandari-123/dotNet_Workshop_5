@@ -14,8 +14,8 @@ namespace Task_5
             ElectronicsStore store = new ElectronicsStore();
 
             // Create devices
-            Laptop laptop1 = new Laptop("Dell", 1200);
-            Smartphone phone1 = new Smartphone("Samsung", 800);
+            Laptop laptop1 = new Laptop("Dell", 60000);
+            Smartphone phone1 = new Smartphone("Samsung", 80000);
 
             // Add devices to store
             store.AddDevice(laptop1);
