@@ -1,0 +1,27 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Task_3
+{
+    internal class Printer
+    {
+        // Overloaded methods
+        public void Print(string message)
+        {
+            Console.WriteLine(message);
+        }
+
+        public void Print(int number)
+        {
+            Console.WriteLine(number);
+        }
+
+        public void Print(string message, int count)
+        {
+            Console.WriteLine($"{message} - {count}");
+        }
+    }
+}
