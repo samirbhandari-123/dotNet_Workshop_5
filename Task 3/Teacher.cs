@@ -17,9 +17,9 @@ namespace Task_3
         }
 
         // Non-overridable method
-        public void SalaryInfo()
-        {
-            Console.WriteLine("Salary Info cannot be overridden.");
-        }
+        //public void SalaryInfo()
+        //{
+        //    Console.WriteLine("Salary Info cannot be overridden.");
+        //}
     }
 }
